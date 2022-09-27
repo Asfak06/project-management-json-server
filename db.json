@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "email": "asfakmunna@gmail.com",
+      "password": "$2a$10$v/LZWY1pK8VOfdQuiniHeesViV1QCwvp6ZLu1l179EtOIVFkN6n.e",
+      "name": "Asfak",
+      "image": "https://asfak.me/nirvana1.jpg",
+      "id": 1
+    },
+    {
+      "email": "fate@gmail.com",
+      "password": "$2a$10$pTpO2eed30ZppkLWa2DbKusF/bchn7oMaT8AILa1G4XnBHYelmRq6",
+      "name": "Fate",
+      "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Fate-stay_night.jpg",
+      "id": 2
+    },
+    {
+      "email": "zoro@gmail.com",
+      "password": "$2a$10$ao1NFPUdOIFY8oQ7Lsj0wuEBiXJrOWq030tg.SA1BdW/gxIrv9BXi",
+      "name": "zoro",
+      "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Roronoa_Zoro.jpg",
+      "id": 3
+    }
+  ],
+  "teams": [
+    {
+      "name": "Dev",
+      "color": "bg-red-500",
+      "description": "description dummy texts",
+      "created": "9/23/2022, 5:51:05 PM",
+      "members": "[1,2]",
+      "id": 1
+    },
+    {
+      "name": "Design",
+      "color": "bg-green-500",
+      "description": "description dummy texts",
+      "created": "9/23/2022, 5:52:34 PM",
+      "members": "[1,3]",
+      "id": 2
+    },
+    {
+      "name": "Suicide squad",
+      "color": "bg-blue-500",
+      "description": "description dummy texts",
+      "created": "9/26/2022, 12:43:28 AM",
+      "members": "[2,1]",
+      "id": 3
+    }
+  ],
+  "projects": [
+    {
+      "title": "Landing page",
+      "teamId": "2",
+      "created": "9/24/2022, 5:00:23 PM",
+      "creatorId": 1,
+      "creatorImg": "https://asfak.me/nirvana1.jpg",
+      "stage": "doing",
+      "id": 4
+    },
+    {
+      "title": "Dashboard panel",
+      "teamId": "1",
+      "created": "9/24/2022, 7:32:59 PM",
+      "creatorId": 1,
+      "creatorImg": "https://asfak.me/nirvana1.jpg",
+      "stage": "backlog",
+      "id": 5
+    },
+    {
+      "title": "Footer",
+      "teamId": "2",
+      "created": "9/24/2022, 11:52:10 PM",
+      "creatorId": 1,
+      "creatorImg": "https://asfak.me/nirvana1.jpg",
+      "stage": "backlog",
+      "id": 6
+    },
+    {
+      "title": "Kill Luthor",
+      "teamId": "3",
+      "created": "9/26/2022, 12:49:49 AM",
+      "creatorId": 2,
+      "creatorImg": "https://upload.wikimedia.org/wikipedia/en/d/d4/Fate-stay_night.jpg",
+      "stage": "done",
+      "id": 7
+    }
+  ]
+}
