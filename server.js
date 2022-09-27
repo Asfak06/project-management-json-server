@@ -11,7 +11,7 @@ global.io = io;
 
 const router = jsonServer.router("db.json");
 
-response middleware
+// response middleware
 
 // router.render = (req, res) => {
 //     const path = req.path;
@@ -44,8 +44,8 @@ app.use(middlewares);
 
 const rules = auth.rewriter({
     users: 640,
-    conversations: 660,
-    messages: 660,
+    teams: 660,
+    projects: 660,
 });
 
 app.use(rules);
