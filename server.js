@@ -11,7 +11,8 @@ global.io = io;
 
 const router = jsonServer.router("db.json");
 
-// response middleware
+response middleware
+
 // router.render = (req, res) => {
 //     const path = req.path;
 //     const method = req.method;
